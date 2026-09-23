@@ -1,0 +1,9 @@
+.venv/
+.idea/
+__pycache__/
+helpers/
+data/
+out/
+
+.env
+test-mobile-analytics.json
