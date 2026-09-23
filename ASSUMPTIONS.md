@@ -6,6 +6,12 @@ apps: 5, costs: 4,049, events: 97,451 (94,535 distinct), staging: 650
 
 Assumed that this data meets the task requirements.
 
+## 2. SQL
+
+BigQuery is permitted in the task, so it has been used here.
+
+Rounding to 2 decimal places for float values is assumed sufficient.
+
 ## 2.1 - De-duplication
 
 Dedup tie-break (same event_id, same ingested_at) uses a row hash.
